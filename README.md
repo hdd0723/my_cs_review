@@ -1,2 +1,3 @@
-秋招复习的过程
+记录学习的过程
 * leetcode hot100
+* git_commands
