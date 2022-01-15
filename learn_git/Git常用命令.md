@@ -56,3 +56,17 @@ git checkout -- file_name.txt
 
 注意方法二中的“--”不能忽略，否则就无法实现工作区的撤销。
 
+
+
+**撤销暂存区的修改**
+
+假设file.txt修改了，并添加到了暂存区
+
+```bash
+# 方法一：通过两步撤销暂存区的修改
+git reset HEAD file.txt # 将file.txt在暂存区的修改撤销，修改目前停留在工作区
+git restore file.txt	# 将工作区的file.txt的修改撤销
+```
+
+
+
