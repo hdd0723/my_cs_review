@@ -1,3 +1,7 @@
 This is the first line of this text.
 
 Append the second line of this text.
+
+Add third line in this text.
+
+Add the 4th line into the text.
